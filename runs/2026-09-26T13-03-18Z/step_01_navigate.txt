@@ -1,0 +1,22 @@
+Opti step 01
+cycle: predict echo -> decide -> PUSH path -> do -> hear real echo -> correct
+
+[predict]
+  (internal hypothesis empty at start)
+  predicted risk d = 1.00
+
+[decide + PUSH]
+  path pushed to ground station: [0.5652, 0.0474]
+
+[do]
+  pose updated to [0.5652, 0.0474]
+
+[hear]
+  real echo range: 1.4569 m
+
+[correct]
+  surprise: 1.00
+  status: navigating
+  goal_dist remaining: 4.00 m (note: goal_dist reported pre-move in this frame)
+
+invariants held: no world map; d from predicted echo only; path pushed before move
