@@ -1,0 +1,7 @@
+Opti boot
+name: Opti
+pose: [0.0, 0.0]
+status: idle
+goal: [4.0, 0.0]
+cycle: predict-echo -> decide -> PUSH path -> do -> hear real echo -> correct
+invariant: no world map
