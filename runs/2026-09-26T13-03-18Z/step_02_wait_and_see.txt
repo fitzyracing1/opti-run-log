@@ -1,0 +1,31 @@
+Opti step 02 — wait-and-see on user command
+
+topic: «Run opti. Commit every step in one new repo every time it is run.»
+
+[1] READING INPUT
+  word count: 14
+  complexity score: 2.000
+
+[2] PREDICT
+  predicted range: 1.0000 m
+  predicted ToF: 5.83 ms
+
+[3] DECIDE (d from predicted echo only)
+  d = 1.5000
+  1/d = 0.6667
+
+[4] HEAR
+  heard range: 0.9370 m
+  variation: 0.9370
+
+[5] CORRECT
+  |pred - heard| = 0.0630
+  surprise: 0.06 (clear)
+  tone: The return matches my prediction closely.
+
+[6] QUESTIONS (low drive)
+  Q1: Does the command feel complete, or is there a missing angle?
+  Q2: Treat as stable scatterer for now?
+
+Action taken: new repo created (opti-run-log), every cycle step committed under runs/2026-09-26T13-03-18Z/
+Policy locked: commit every Opti step on every future run.
